@@ -10,7 +10,7 @@ const app = express();
 /*
 * Configure App
 */
-app.use(bodyParser.urencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/teste', function(req, res) {
