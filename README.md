@@ -10,3 +10,7 @@ $ cd node-express-boilerplate
 $ npm install
 $ npm start
 ```
+
+## License
+
+MIT
