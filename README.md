@@ -6,7 +6,7 @@ This is a initial demo node.js for creating a modular app. The demo app has two 
 
 ```sh
 $ git clone https://github.com/thiagoleitedev/node-express-boilerplate
-$ cd my-project
+$ cd node-express-boilerplate
 $ npm install
 $ npm start
 ```
