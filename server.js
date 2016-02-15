@@ -15,14 +15,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 /*
-* Resource Modules
+* Rest Modules
 */
-const resource = {};
-resource.users = require('./modules/users/users.routes');
-resource.articles = require('./modules/articles/articles.routes');
+const rest = {};
+rest.users = require('./modules/users/users.routes');
+rest.articles = require('./modules/articles/articles.routes');
 
-app.use('/users', resource.users);
-app.use('/articles', resource.articles);
+app.use('/users', rest.users);
+app.use('/articles', rest.articles);
 
 app.listen(3000, () => {
 	console.log("App listening on port 3000!");
